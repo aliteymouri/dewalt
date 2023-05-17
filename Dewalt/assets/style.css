@@ -1,0 +1,507 @@
+/*************************
+  1.General
+*************************/
+@font-face {
+  font-family: 'Vazir Black FD-WOL';
+  src: url('fonts/Vazir-Black-FD-WOL.eot');
+  src: url('fonts/Vazir-Black-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Black-FD-WOL.woff2') format('woff2'),
+    url('fonts/Vazir-Black-FD-WOL.woff') format('woff'),
+    url('fonts/Vazir-Black-FD-WOL.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Vazir FD-WOL';
+  src: url('fonts/Vazir-Bold-FD-WOL.eot');
+  src: url('fonts/Vazir-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Bold-FD-WOL.woff2') format('woff2'),
+    url('fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('fonts/Vazir-Bold-FD-WOL.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir Light FD-WOL';
+  src: url('fonts/Vazir-Light-FD-WOL.eot');
+  src: url('fonts/Vazir-Light-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Light-FD-WOL.woff2') format('woff2'),
+    url('fonts/Vazir-Light-FD-WOL.woff') format('woff'),
+    url('fonts/Vazir-Light-FD-WOL.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir Medium FD-WOL';
+  src: url('fonts/Vazir-Medium-FD-WOL.eot');
+  src: url('fonts/Vazir-Medium-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Medium-FD-WOL.woff2') format('woff2'),
+    url('fonts/Vazir-Medium-FD-WOL.woff') format('woff'),
+    url('fonts/Vazir-Medium-FD-WOL.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir FD-WOL';
+  src: url('fonts/Vazir-Regular-FD-WOL.eot');
+  src: url('fonts/Vazir-Regular-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Regular-FD-WOL.woff2') format('woff2'),
+    url('fonts/Vazir-Regular-FD-WOL.woff') format('woff'),
+    url('fonts/Vazir-Regular-FD-WOL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir Thin FD-WOL';
+  src: url('fonts/Vazir-Thin-FD-WOL.eot');
+  src: url('fonts/Vazir-Thin-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Thin-FD-WOL.woff2') format('woff2'),
+    url('fonts/Vazir-Thin-FD-WOL.woff') format('woff'),
+    url('fonts/Vazir-Thin-FD-WOL.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mj_SS Three';
+  src: url('fonts/Mj_SSThree.eot');
+  src: url('fonts/Mj_SSThree.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Mj_SSThree.woff2') format('woff2'),
+    url('fonts/Mj_SSThree.woff') format('woff'),
+    url('fonts/Mj_SSThree.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Vazir FD-WOL' !important;
+  background: #fff;
+  color: #999999;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  direction: rtl;
+  overflow-x: hidden;
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+*::before,
+*::after,
+a,
+button,
+span,
+input,
+textarea,
+.btn {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a,
+button,
+input,
+textarea {
+  color: #999999;
+  outline: medium none;
+}
+
+.uppercase {
+  text-transform: uppercase
+}
+
+.capitalize {
+  text-transform: capitalize
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3f3f3f;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #999999;
+  margin-bottom: 15px;
+}
+
+
+
+
+/* -----------------------------------
+  02. Header Section
+--------------------------------------*/
+
+/*hero section css here*/
+.buy-btn {
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 24px;
+  margin-top: 0;
+  padding: 6px 35px;
+  text-transform: uppercase;
+}
+
+.stick .buy-btn {
+  border: 2px solid #3498db;
+  color: #3498db;
+  margin-top: 3px;
+}
+
+.buy-btn:hover {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: #ffffff;
+}
+
+.hero-section {
+  background: url(img/mazlay/bg-mazlay.jpg) no-repeat scroll center center/cover;
+  margin-bottom: 93px;
+}
+
+.hero-section .row {
+  height: 960px;
+}
+
+.hero-content {
+  padding-right: 120px;
+}
+
+
+.hero-content h1 span {
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 72px;
+  display: block;
+  line-height: 65px;
+}
+
+.hero-content h1 span.medium {
+  font-weight: 500;
+}
+
+.hero-content p {
+  color: #fff;
+  font-size: 28px;
+  line-height: 45px;
+}
+
+.hero-content a {
+  margin-top: 70px;
+  display: inline-block;
+  border-radius: 3px;
+  height: 50px;
+  line-height: 48px;
+  padding: 0 45px;
+  font-weight: 600;
+}
+
+.hero-content a:hover {
+  color: #eb3d32;
+  border-color: #eb3d32;
+  background: inherit;
+}
+
+/*section title css here*/
+
+.section_content {
+  text-align: center;
+  padding-bottom: 52px;
+}
+
+.section_content h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #2e2e2e;
+  text-transform: capitalize;
+}
+
+.section_content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #2e2e2e;
+  margin-bottom: 0;
+}
+
+/* demo-section css here */
+.demo-section.section {
+  padding: 0 64px 20px;
+}
+
+.demo-item {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.demo-item .image {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.demo-item:hover .image {
+  opacity: 0.8;
+}
+
+
+.demo-item .image img {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.demo-item .title a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 40px;
+  border: 2px solid #ededec;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 75px;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+.demo-item:hover .title a {
+  color: #eb3d32;
+  border-color: #eb3d32;
+}
+
+
+/*product details css here*/
+.product_details {
+  background: #f5f5f5;
+  padding: 100px 64px;
+}
+
+.product_thumb {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product_content h2 {
+  font-size: 36px;
+  color: #2c3137;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.product_content p {
+  font-size: 18px;
+  color: #373737;
+  line-height: 24px;
+  margin: 0;
+  max-width: 550px;
+}
+
+.product_content a {
+  color: #2c3137;
+  font-size: 12px;
+  line-height: 50px;
+  border: 2px solid #2f343a;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 60px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+.product_content a:hover {
+  color: #eb3d32;
+  border-color: #eb3d32;
+}
+
+.product_details.category_area {
+  background: inherit;
+}
+
+.product_details.category_area {
+  background: inherit;
+  padding: 100px 64px 93px;
+}
+
+/*header option cs shere*/
+.header_titile {
+  text-align: center;
+  margin-bottom: 63px;
+}
+
+.header_titile h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #2e2e2e;
+}
+
+.header_titile p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #2e2e2e;
+  margin-bottom: 0;
+}
+
+.header_box_thumb {
+  text-align: center;
+}
+
+.box_thumb {
+  margin-bottom: 40px;
+}
+
+.header_option {
+  margin-bottom: 32px;
+}
+
+
+/*mobile responcive css here*/
+
+.mobile_thumb {
+  text-align: center;
+}
+
+.mobile_responcive {
+  background: #f5f5f5;
+  padding: 94px 64px 90px;
+}
+
+/*footer area css here*/
+.footer_content {
+  text-align: center;
+}
+
+
+.copyright_area {
+  text-align: center;
+}
+
+.footer_area {
+  background: url(img/other/bkg_footer.jpg) no-repeat scroll center center/cover;
+}
+
+.footer_content h3 {
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.footer_content p {
+  color: #fff;
+  font-size: 24px;
+}
+
+
+.footer_content a {
+  display: inline-block;
+  line-height: 55px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background: #eb3d32;
+  color: #fff;
+  padding: 0 46px;
+  margin: 65px 0 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer_content a:hover {
+  opacity: 0.7;
+}
+
+.footer-top {
+  padding: 110px 0;
+}
+
+.copyright_area p {
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+.copyright_area p a {
+  color: #fff;
+}
+
+.copyright_area p a:hover {
+  text-decoration: underline;
+}
+
+.copyright_area {
+  text-align: center;
+  padding: 31px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
